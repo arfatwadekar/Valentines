@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Someonecares</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Font Awesome CDN Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Remix Icon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+ <link rel="shortcut icon" href="../image/favicon-32x32.png" type="image/x-icon">
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom CSS Links -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <!-- =============== Header Section ===============-->
+    <header class="header">
+      <a
+        href=""
+        style="font-size: 3rem; color: var(--primary-color); font-weight: bold"
+      >
+        Someonecares
+      </a>
+      <nav class="navbar">
+        <a href="#hero">Home</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#Pricing">Pricing</a>
+        <a href="#sendYourMessage">Send a Message</a>
+      </nav>
+      <div id="menu-btn" class="fa fa-bars"></div>
+    </header>
+
+    <!-- =============== Home Section ===============-->
+    <section class="hero" id="hero">
+      <div class="content">
+        <h1>
+          Send a Secret <br />
+          Valentine's Message ❤️
+        </h1>
+        <p class="subtext">
+          Make someone's day special with a daily SMS surprise! <br />Prices
+          increase daily, so act fast!
+        </p>
+        <a class="form-group" href="#sendYourMessage">
+          <button>Send a Secret Valentine Now!</button>
+        </a>
+      </div>
+
+      <div class="timer">
+        <div class="sub_timer">
+          <h1 id="day" class="digit">00</h1>
+          <p class="digit_name">Days</p>
+        </div>
+        <div class="sub_timer">
+          <h1 id="hours" class="digit">00</h1>
+          <p class="digit_name">Hours</p>
+        </div>
+        <div class="sub_timer">
+          <h1 id="min" class="digit">00</h1>
+          <p class="digit_name">Minutes</p>
+        </div>
+        <div class="sub_timer">
+          <h1 id="sec" class="digit">00</h1>
+          <p class="digit_name">Second</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== How It's Works ===============-->
+    <section id="how-it-works" class="how-it-works">
+      <div class="content-section" style="text-align: center; margin: 0 auto">
+        <h1 class="second_h1" style="color: black; margin-bottom: 0">
+          How It's Works
+        </h1>
+        <div
+          class="underline"
+          style="
+            width: 100px;
+            height: 3px;
+            background-color: #ff1f6b;
+            margin: 20px auto;
+          "
+        ></div>
+      </div>
+      <div class="steps">
+        <div class="step" style="color: black">
+          <i class="fas fa-user-plus"></i>
+          <h3
+            style="padding-bottom: 10px; font-size: 16px; font-weight: normal"
+          >
+            Choose Recipient
+          </h3>
+          <p style="color: black; font-weight: bold">
+            Enter their phone number
+          </p>
+        </div>
+        <div class="step" style="color: black">
+          <i class="fas fa-mask"></i>
+          <h3
+            style="padding-bottom: 10px; font-size: 16px; font-weight: normal"
+          >
+            Stay Secret or Reveal
+          </h3>
+          <p style="color: black; font-weight: bold">
+            Choose anonymity or reveal on Feb 14
+          </p>
+        </div>
+        <div class="step" style="color: black">
+          <i class="fas fa-calendar-check"></i>
+          <h3
+            style="padding-bottom: 10px; font-size: 16px; font-weight: normal"
+          >
+            Pay & Schedule
+          </h3>
+          <p style="color: black; font-weight: bold">
+            Secure payment and SMS scheduling
+          </p>
+        </div>
+        <div class="step" style="color: black">
+          <i class="fas fa-heart"></i>
+          <h3
+            style="padding-bottom: 10px; font-size: 16px; font-weight: normal"
+          >
+            Surprise Your Valentine!
+          </h3>
+          <p style="color: black; font-weight: bold">
+            SMS gets sent automatically
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== Pricing ===============-->
+    <section class="Pricing" id="Pricing">
+      <div class="content-section" style="text-align: center; margin: 0 auto">
+        <h1 class="second_h1" style="color: white; margin-bottom: 0">
+          Pricing
+        </h1>
+        <div
+          class="underline"
+          style="
+            width: 100px;
+            height: 3px;
+            background-color: white;
+            margin: 20px auto;
+          "
+        ></div>
+      </div>
+      <div class="pricing-container" style="margin-top: 5rem;">
+        <div class="pricing-option selected">
+          <div class="save-badge">Save 95%</div>
+          <h2 class="title" style="text-align: left; margin: 14px 0">
+            Date - Jan 31
+          </h2>
+          <div class="price">
+            <p class="amount">10/- [ Increases ₹10 daily ]</p>
+          </div>
+        </div>
+        <div class="pricing-option selected">
+          <div class="save-badge">Save 95%</div>
+          <h2 class="title" style="text-align: left; margin: 14px 0">
+            Date - Jan 31
+          </h2>
+          <div class="price">
+            <p class="amount">10/- [ Increases ₹10 daily ]</p>
+          </div>
+        </div>
+        <div class="pricing-option selected">
+          <div class="save-badge">Save 95%</div>
+          <h2 class="title" style="text-align: left; margin: 14px 0">
+            Date - Jan 31
+          </h2>
+          <div class="price">
+            <p class="amount">10/- [ Increases ₹10 daily ]</p>
+          </div>
+        </div>
+      </div>
+      <div
+        id="countdown"
+        class="countdown"
+        style="
+          text-align: center;
+          color: white;
+          font-size: 2rem;
+          margin-top: 4rem;
+        "
+      >
+        <p
+          style="
+            color: white;
+            font-size: 3.5rem;
+            margin-top: 6rem;
+            margin-bottom: 6rem;
+            font-weight: bold;
+            text-transform: capitalize;
+          "
+        >
+          Time left before next price increase By -
+          <span style="font-size: 5rem; color: white">10/- Rs</span>
+        </p>
+
+        <div class="timer">
+          <div class="sub_timer">
+            <h1 id="day" class="pricing_digit" >00</h1>
+            <p class="digit_name">Days</p>
+          </div>
+          <div class="sub_timer">
+            <h1 id="hours" class="pricing_digit">00</h1>
+            <p class="digit_name">Hours</p>
+          </div>
+          <div class="sub_timer">
+            <h1 id="min" class="pricing_digit">00</h1>
+            <p class="digit_name">Minutes</p>
+          </div>
+          <div class="sub_timer">
+            <h1 id="sec" class="pricing_digit">00</h1>
+            <p class="digit_name">Second</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============  Send Your Secret Message ===============-->
+    <section class="Send Your Secret Message" id="sendYourMessage">
+      <div class="content-section" style="text-align: center; margin: 0 auto">
+        <h1 class="second_h1" style="color: black; margin-bottom: 0">
+          Send Your Secret Message
+        </h1>
+        <div
+          class="underline"
+          style="
+            width: 100px;
+            height: 3px;
+            background-color: #ff1f6b;
+            margin: 20px auto;
+          "
+        ></div>
+      </div>
+
+      <!-- form -->
+      <div class="valentine-container">
+        <form class="valentine-form">
+          <h2>Send a Secret Valentine 💌</h2>
+
+          <div class="form-group">
+            <label for="phone">Recipient's Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter recipient's phone number"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="name">Sender's Name (Optional)</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name (Optional)"
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Choose:</label>
+            <div class="radio-group">
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <input
+                  type="radio"
+                  id="anonymous"
+                  name="reveal"
+                  value="anonymous"
+                  checked
+                />
+                <label
+                  for="anonymous"
+                  style="margin-bottom: 0; padding-left: 11px"
+                  >Anonymous</label
+                >
+              </div>
+              <br />
+              <div
+                style="display: flex; margin-left: -2px; align-items: center"
+              >
+                <input
+                  type="radio"
+                  id="reveal"
+                  name="reveal"
+                  value="reveal"
+                  style="width: 16px"
+                />
+                <label for="reveal" style="margin-bottom: 0; padding-left: 11px"
+                  >Reveal on Feb 14</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Payment Method</label>
+            <input type="text" placeholder="Enter your UPI ID To Pay" />
+          </div>
+
+          <button type="submit" class="cta-button">
+            Send Secret Valentine 💘
+          </button>
+        </form>
+
+        <div class="valentine-image">
+          <img src="../image/couple-6012445_1920.png" alt="Valentine’s Day" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Someonecares</h3>
+            <p>Lorem ipsum Lorem ipsum Lorem ipsum</p>
+            <div class="contact-info">
+              <span>📞</span>
+              <span>+974 9793X 200</span>
+            </div>
+            <div class="contact-info">
+              <span>✉️</span>
+              <span>info@haven.com</span>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Partners</h3>
+            <ul>
+              <li><a href="#">Partner With Us</a></li>
+              <li><a href="#">Partner Resources</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Information</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Service</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Customer Support</h3>
+            <ul>
+              <li><a href="#">Payment Option</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"
+                ><i class="ri-facebook-box-fill" style="font-size: 19px"></i
+              ></a>
+              <a href="#"
+                ><i class="ri-twitter-x-line" style="font-size: 19px"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>Copyright © 2023 | All rights reserved</span>
+          <div>
+            <a href="#">Privacy and Policy</a>
+            <span> | </span>
+            <a href="#">Terms & Condition</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
